@@ -1,0 +1,81 @@
+libestr (0.1.9-1.1) unstable; urgency=medium
+
+  * Non maintainer upload.
+  * Build using dh-autoreconf. Closes: #755523.
+  * Add autopkgtest tests to verify that the headers are correctly installed.
+    Closes: #700293.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 04 Aug 2014 10:45:19 +0200
+
+libestr (0.1.9-1) unstable; urgency=low
+
+  * Imported Upstream version 0.1.9 (Closes: #727126)
+  * Bump Standards Version to 3.9.5
+
+ -- Pierre Chifflier <pollux@debian.org>  Sat, 28 Dec 2013 10:08:12 +0100
+
+libestr (0.1.9-0ubuntu2) trusty; urgency=low
+
+  * Build using dh-autoreconf.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 03 Dec 2013 23:04:04 +0100
+
+libestr (0.1.9-0ubuntu1) trusty; urgency=low
+
+  * New upstream release.
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sun, 24 Nov 2013 16:01:33 -0800
+
+libestr (0.1.5-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- Pierre Chifflier <pollux@debian.org>  Thu, 09 May 2013 21:41:04 +0200
+
+libestr (0.1.5-1) experimental; urgency=low
+
+  * Upload to experimental
+  * Imported Upstream version 0.1.5 (Closes: #703680)
+
+ -- Pierre Chifflier <pollux@debian.org>  Fri, 22 Mar 2013 10:23:13 +0100
+
+libestr (0.1.4-1) experimental; urgency=low
+
+  * Upload to experimental
+  * Fix watch file (thanks Michael Biebl for the patch)
+  * Imported Upstream version 0.1.4 (Closes: #688998)
+  * Bump Standards Version to 3.9.3
+  * Update symbols file
+
+ -- Pierre Chifflier <pollux@debian.org>  Fri, 28 Sep 2012 13:13:14 +0200
+
+libestr (0.1.1-2) unstable; urgency=low
+
+  * Switch to DH 9
+    - drop build-dep on hardening-wrapper, replace by dpkg-buildflags
+    - enable multiarch support
+
+ -- Pierre Chifflier <pollux@debian.org>  Tue, 21 Feb 2012 22:47:01 +0100
+
+libestr (0.1.1-1) unstable; urgency=low
+
+  * Imported Upstream version 0.1.1
+  * Add watch file
+  * Update symbols file
+
+ -- Pierre Chifflier <pollux@debian.org>  Tue, 12 Jul 2011 21:14:22 +0200
+
+libestr (0.1.0-2) unstable; urgency=low
+
+  * Enable hardening wrapper
+  * Bump Standards Version to 3.9.2
+  * Remove .la file from package
+  * Add symbols (Closes: #613333)
+
+ -- Pierre Chifflier <pollux@debian.org>  Mon, 11 Jul 2011 21:50:28 +0200
+
+libestr (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #606752)
+
+ -- Pierre Chifflier <pollux@debian.org>  Sat, 11 Dec 2010 12:03:47 +0100

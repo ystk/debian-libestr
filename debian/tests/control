@@ -1,0 +1,2 @@
+Tests: build
+Depends: libestr-dev, build-essential, pkg-config
